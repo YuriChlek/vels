@@ -1,0 +1,11 @@
+.header-links {
+  @apply flex justify-between;
+
+  .link {
+    @apply  pl-3;
+
+    &:not(:last-child) {
+      @apply pr-3;
+    }
+  }
+}
